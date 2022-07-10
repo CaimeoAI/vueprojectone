@@ -1,10 +1,10 @@
 <template>
     <div class="navbar">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Link 1</a></li>
-            <li><a href="">Link 2</a></li>
-            <li><a href="">Link 3</a></li>
+            <li><a href=""><i class="fa-solid fa-house"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-chart-line"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-cloud-sun"></i></a></li>
+            <li><a href=""><i class="fa-regular fa-newspaper"></i></a></li>
         </ul>
     </div>
 </template>
@@ -17,21 +17,25 @@
 
 <style scoped>
     .navbar {
+        position: fixed;
         display: flex;
         justify-content: center;
-        width: 100vw;
-        height: 2rem;
-        background-color: steelblue;
+        flex-direction: column;
+        width: 2rem;
+        height: 100vh;
+        background-color: #E4E6EB;
     }
 
     ul {
+        padding: 0;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
 
     li {
-        margin: 0px 1rem;
+        margin: 1rem 0;
         list-style-type: none;
     }
 

@@ -23,6 +23,7 @@
     }
 
     h1 {
+        color: white;
         padding-top: 2rem;
         text-align: center;
         font-weight: bold;
